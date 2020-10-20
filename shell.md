@@ -20,7 +20,7 @@
 # serializando via shell
 
 
-### importando o necessario 
+### importando o necessário 
     from app.models import Todo
     from app.serializer import TodoSerializer
 
