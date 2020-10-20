@@ -1,17 +1,47 @@
- # criação de projetos
+# Comandos 
+
+## Criação do venv
+
+   python -m venv  nome_do_env
+
+---
+
+## Ativando venv
+
+   source nome_do_env/bin/activate
+
+---   
+
+## Criação de projetos
+
    python django-admin startproject api_todo
 
-# criação de módulos
+---
+
+## Criação de módulos
+
    python ./manage.py  startapp app
 
-# criação das migrations
+---
+
+## Criação das migrations
+
    python ./manage.py  makemigrations
 
-# rodando migrations     
+---
+
+## rodando migrations     
+
    python ./manage.py migrate
 
-# Criando super usuário
+---
+
+## Criando super usuário
+
    python ./manage.py createsuperuser --username=Gleison --email=gleisonnanet@gmail.com
-# executando o servidor 
+
+## Executando o servidor 
+
    python ./manage.py runserver
  
+ ---
