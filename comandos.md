@@ -11,6 +11,11 @@
    source nome_do_env/bin/activate
 
 ---   
+## Projeto existente 
+
+pip install -r requirements.txt
+
+--- 
 
 ## Criação de projetos
 
